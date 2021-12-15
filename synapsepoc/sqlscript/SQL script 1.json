@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "SELECT passenger_count,\n      SUM(trip_distance) as SumTripDistance,\n      AVG(trip_distance) as AvgTripDistance\nFROM  dbo.TripsData\nWHERE trip_distance > 0 AND passenger_count > 0\nGROUP BY passenger_count\nORDER BY passenger_count;\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "appmu2jmkbxozmnspocws1p1",
+				"poolName": "appmu2jmkbxozmnspocws1p1"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
