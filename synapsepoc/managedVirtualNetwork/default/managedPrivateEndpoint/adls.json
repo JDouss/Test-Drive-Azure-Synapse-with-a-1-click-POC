@@ -1,0 +1,7 @@
+{
+	"name": "adls",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/d5331456-c245-40c6-80b1-01bb7c3b4f4a/resourceGroups/rg-applusanalytics/providers/Microsoft.Storage/storageAccounts/appmu2jmkbxozmnspoc",
+		"groupId": "dfs"
+	}
+}
