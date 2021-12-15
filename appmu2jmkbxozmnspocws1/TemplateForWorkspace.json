@@ -527,7 +527,7 @@
 					},
 					"datalakeAccountName": {
 						"type": "string",
-						"defaultValue": "kvappmu2jmkbxozmnspoc"
+						"defaultValue": "appmu2jmkbxozmnspoc"
 					}
 				},
 				"folder": {
